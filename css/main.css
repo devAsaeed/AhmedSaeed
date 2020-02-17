@@ -138,8 +138,11 @@ body .overlay {
 .skills .skill:nth-of-type(8) .progress-val {
     width: 70%;
 }
-.skills .skill:last-of-type .progress-val {
+.skills .skill:nth-of-type(9) .progress-val {
     width: 60%;
+}
+.skills .skill:last-of-type .progress-val {
+    width: 65%;
 }
 .skills:after {
     content: "";
@@ -303,6 +306,10 @@ body .overlay {
 .profile .prof-info h3 i.blue,
 .profile .prof-info h3 a.blue{
     color:#7540EE; 
+}
+.profile .prof-info h3 i.yello,
+.profile .prof-info h3 a.yello{
+    color:#fcc52a; 
 }
 /*end profile */
 /* start footer */
